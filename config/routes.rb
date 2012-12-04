@@ -1,4 +1,16 @@
 Newapp::Application.routes.draw do
+  get "posts/index"
+
+  get "posts/show"
+
+  get "posts/edit"
+
+  get "posts/update"
+
+  get "posts/destroy"
+
+  get "posts/new"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
